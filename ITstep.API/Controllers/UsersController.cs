@@ -15,10 +15,12 @@ namespace ITstep.API.Controllers
     {
         protected readonly StepDbContext _db;
         protected readonly IUserRepository _repo;
-        public UsersController (StepDbContext db, IUserRepository repo)
+        protected readonly IUserService _service;
+        public UsersController (StepDbContext db, IUserRepository repo, IUserService service)
         {
             _db = db;
             _repo = repo;
+            _service = service;
         }
 
         // GET: api/<UsersController>
@@ -40,7 +42,7 @@ namespace ITstep.API.Controllers
         }
 
         // Post api/<UsersController>
-        [HttpPost]
+        [HttpPost ]
         public async Task<ActionResult> PostUser(User user)
         {
             if (user != null)
@@ -49,6 +51,15 @@ namespace ITstep.API.Controllers
                 return Ok("Пользователь добавлен");
             }
             else return BadRequest("Пользователя пришёл как null");
+        }
+
+
+        [HttpGet("Auth")]
+        public async Task<ActionResult<User>> Login(string login, string password)
+        {
+            var user  = _service.Login(login, password);
+            if (user != null) return Ok(user);
+            else return BadRequest(user);
         }
     }
 }

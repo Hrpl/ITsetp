@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "T+Vf9A9bBe9fKwmL9VM+sgtazSHluGhKA4ZNjqDYjZo=",
+  "Hash": "zfX3KysYkldAuMOIRBjXlc7swhyUB+N29PqjqODhkWU=",
   "Source": "ITstep.WEB",
   "BasePath": "_content/ITstep.WEB",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ITstep.WEB\\wwwroot",
       "Source": "ITstep.WEB",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Денис\\Desktop\\ITsetp\\ITstep.WEB\\wwwroot\\",
       "BasePath": "_content/ITstep.WEB",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ITstep.WEB.styles.css",
+      "Identity": "C:\\Users\\Денис\\Desktop\\ITsetp\\ITstep.WEB\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ITstep.WEB.styles.css",
       "SourceId": "ITstep.WEB",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Денис\\Desktop\\ITsetp\\ITstep.WEB\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ITstep.WEB",
       "RelativePath": "ITstep.WEB.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ITstep.WEB.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Денис\\Desktop\\ITsetp\\ITstep.WEB\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ITstep.WEB.styles.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ITstep.WEB.bundle.scp.css",
+      "Identity": "C:\\Users\\Денис\\Desktop\\ITsetp\\ITstep.WEB\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ITstep.WEB.bundle.scp.css",
       "SourceId": "ITstep.WEB",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Денис\\Desktop\\ITsetp\\ITstep.WEB\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ITstep.WEB",
       "RelativePath": "ITstep.WEB.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ITstep.WEB.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Денис\\Desktop\\ITsetp\\ITstep.WEB\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ITstep.WEB.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\Денис\\Desktop\\ITsetp\\ITstep.WEB\\wwwroot\\app.css",
       "SourceId": "ITstep.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Денис\\Desktop\\ITsetp\\ITstep.WEB\\wwwroot\\",
       "BasePath": "_content/ITstep.WEB",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Денис\\Desktop\\ITsetp\\ITstep.WEB\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "ITstep.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Денис\\Desktop\\ITsetp\\ITstep.WEB\\wwwroot\\",
       "BasePath": "_content/ITstep.WEB",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Денис\\Desktop\\ITsetp\\ITstep.WEB\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "ITstep.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Денис\\Desktop\\ITsetp\\ITstep.WEB\\wwwroot\\",
       "BasePath": "_content/ITstep.WEB",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\Денис\\Desktop\\ITsetp\\ITstep.WEB\\wwwroot\\favicon.png",
       "SourceId": "ITstep.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Денис\\Desktop\\ITsetp\\ITstep.WEB\\wwwroot\\",
       "BasePath": "_content/ITstep.WEB",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

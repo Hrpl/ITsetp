@@ -17,6 +17,7 @@ builder.Services.AddAntiforgery();
 
 builder.Services.AddDbContext<StepDbContext>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 
 var app = builder.Build();
