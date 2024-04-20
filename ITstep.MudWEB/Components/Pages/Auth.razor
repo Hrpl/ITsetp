@@ -29,7 +29,7 @@
     </MudItem>
 </EditForm>
 @code {
-    User user = new();
+    User? user = new();
 
     public async Task OnValidSubmit(EditContext context)
     {
@@ -37,7 +37,7 @@
         user = await http.GetFromJsonAsync<User>($"http://192.168.1.68:5079/api/Users/Auth?login={user.Login}&password={user.Password}");
         if (user.Id != 0)
         {
-            session.sessinId = user.Id;
+            session.sessinUser = user;
             manager.NavigateTo("/");
         }
         else
