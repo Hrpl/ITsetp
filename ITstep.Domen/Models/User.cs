@@ -17,4 +17,5 @@ public class User
     public string Phone { get; set; }   
     public string Deportament {  get; set; }
     public bool IsPassed { get; set; }
+    public string Photo { get; set; }
 }

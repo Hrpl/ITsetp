@@ -20,7 +20,7 @@ namespace ITstep.API.Controllers
 
         // GET: api/<UsersController>
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<User>>> GetUser()
+        public async Task<ActionResult<IEnumerable<User>>> GetUsers()
         {
             var users = await _db.Users.ToListAsync();
             if (users != null) return Ok(users);
@@ -29,27 +29,13 @@ namespace ITstep.API.Controllers
 
         // GET api/<UsersController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<ActionResult<User>> GetUser([FromRoute] int id)
         {
-            return "value";
+            var users = await _db.Users.Where(u => u.Id == id).FirstOrDefaultAsync();
+            if (users != null) return Ok(users);
+            else return BadRequest(users);
         }
 
-        // POST api/<UsersController>
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT api/<UsersController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<UsersController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+        
     }
 }
