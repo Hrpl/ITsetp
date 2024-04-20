@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Desktop\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\ITstep.Desktop.styles.css",
+      "PackagePath": "staticwebassets\\ITstep.Desktop.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Desktop\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Desktop\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Desktop\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Desktop\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Desktop\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.ITstep.Desktop.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.build.ITstep.Desktop.props",
+      "PackagePath": "build\\ITstep.Desktop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.buildMultiTargeting.ITstep.Desktop.props",
+      "PackagePath": "buildMultiTargeting\\ITstep.Desktop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.buildTransitive.ITstep.Desktop.props",
+      "PackagePath": "buildTransitive\\ITstep.Desktop.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
