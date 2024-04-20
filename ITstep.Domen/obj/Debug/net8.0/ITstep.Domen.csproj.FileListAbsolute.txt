@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\ITstep\ITstep.Domen\bin\Debug\net8.0\ITstep.Domen.deps.json
+C:\Users\User\Desktop\ITstep\ITstep.Domen\bin\Debug\net8.0\ITstep.Domen.runtimeconfig.json
+C:\Users\User\Desktop\ITstep\ITstep.Domen\bin\Debug\net8.0\ITstep.Domen.dll
+C:\Users\User\Desktop\ITstep\ITstep.Domen\bin\Debug\net8.0\ITstep.Domen.pdb
+C:\Users\User\Desktop\ITstep\ITstep.Domen\obj\Debug\net8.0\ITstep.Domen.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\ITstep\ITstep.Domen\obj\Debug\net8.0\ITstep.Domen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\ITstep\ITstep.Domen\obj\Debug\net8.0\ITstep.Domen.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\ITstep\ITstep.Domen\obj\Debug\net8.0\ITstep.Domen.AssemblyInfo.cs
+C:\Users\User\Desktop\ITstep\ITstep.Domen\obj\Debug\net8.0\ITstep.Domen.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\ITstep\ITstep.Domen\obj\Debug\net8.0\ITstep.Domen.sourcelink.json
+C:\Users\User\Desktop\ITstep\ITstep.Domen\obj\Debug\net8.0\ITstep.Domen.dll
+C:\Users\User\Desktop\ITstep\ITstep.Domen\obj\Debug\net8.0\refint\ITstep.Domen.dll
+C:\Users\User\Desktop\ITstep\ITstep.Domen\obj\Debug\net8.0\ITstep.Domen.pdb
+C:\Users\User\Desktop\ITstep\ITstep.Domen\obj\Debug\net8.0\ITstep.Domen.genruntimeconfig.cache
+C:\Users\User\Desktop\ITstep\ITstep.Domen\obj\Debug\net8.0\ref\ITstep.Domen.dll
