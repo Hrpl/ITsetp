@@ -3150,23 +3150,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gghgg\\.nuget\\packages\\": {},
+    "C:\\Users\\Денис\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.MudWEB\\ITstep.MudWEB.csproj",
+      "projectUniqueName": "C:\\Users\\Денис\\Desktop\\ITstep\\ITstep.MudWEB\\ITstep.MudWEB.csproj",
       "projectName": "ITstep.MudWEB",
-      "projectPath": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.MudWEB\\ITstep.MudWEB.csproj",
-      "packagesPath": "C:\\Users\\gghgg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.MudWEB\\obj\\",
+      "projectPath": "C:\\Users\\Денис\\Desktop\\ITstep\\ITstep.MudWEB\\ITstep.MudWEB.csproj",
+      "packagesPath": "C:\\Users\\Денис\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Денис\\Desktop\\ITstep\\ITstep.MudWEB\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\gghgg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Денис\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3182,8 +3182,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.Domen\\ITstep.Domen.csproj": {
-              "projectPath": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.Domen\\ITstep.Domen.csproj"
+            "C:\\Users\\Денис\\Desktop\\ITstep\\ITstep.Domen\\ITstep.Domen.csproj": {
+              "projectPath": "C:\\Users\\Денис\\Desktop\\ITstep\\ITstep.Domen\\ITstep.Domen.csproj"
             }
           }
         }
@@ -3227,7 +3227,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -23,7 +23,7 @@ public class UserService : IUserService
     }
     public Task<User> Login(string login, string password)
     {
-        var user = _db.Users.Where(p => p.Login == login && p.Password == password).FirstOrDefaultAsync();\
+        var user = _db.Users.Where(p => p.Login == login && p.Password == password).FirstOrDefaultAsync();
         return user;
     }
 }

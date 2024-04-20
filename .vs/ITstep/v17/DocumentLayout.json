@@ -1,45 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gghgg\\Desktop\\ITsetp\\",
+  "WorkspaceRootPath": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\ITstep\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDE6AA93-F077-42ED-9849-752C622B2249}|ITstep.MudWEB\\ITstep.MudWEB.csproj|c:\\users\\gghgg\\desktop\\itsetp\\itstep.mudweb\\components\\pages\\auth.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDE6AA93-F077-42ED-9849-752C622B2249}|ITstep.MudWEB\\ITstep.MudWEB.csproj|solutionrelative:itstep.mudweb\\components\\pages\\auth.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1110FCDA-7112-42A9-9724-BD12672FE5CA}|ITstep.API\\ITstep.API.csproj|c:\\users\\gghgg\\desktop\\itsetp\\itstep.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1110FCDA-7112-42A9-9724-BD12672FE5CA}|ITstep.API\\ITstep.API.csproj|solutionrelative:itstep.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1110FCDA-7112-42A9-9724-BD12672FE5CA}|ITstep.API\\ITstep.API.csproj|C:\\Users\\gghgg\\Desktop\\ITsetp\\itstep.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1110FCDA-7112-42A9-9724-BD12672FE5CA}|ITstep.API\\ITstep.API.csproj|solutionrelative:itstep.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA6B01E4-9704-4942-8732-90A721ACB720}|ITstep.Application\\ITstep.Application.csproj|C:\\Users\\gghgg\\Desktop\\ITsetp\\itstep.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA6B01E4-9704-4942-8732-90A721ACB720}|ITstep.Application\\ITstep.Application.csproj|c:\\users\\\u0434\u0435\u043D\u0438\u0441\\desktop\\itstep\\itstep.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA6B01E4-9704-4942-8732-90A721ACB720}|ITstep.Application\\ITstep.Application.csproj|solutionrelative:itstep.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA6B01E4-9704-4942-8732-90A721ACB720}|ITstep.Application\\ITstep.Application.csproj|C:\\Users\\gghgg\\Desktop\\ITsetp\\itstep.application\\services\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA6B01E4-9704-4942-8732-90A721ACB720}|ITstep.Application\\ITstep.Application.csproj|solutionrelative:itstep.application\\services\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA6B01E4-9704-4942-8732-90A721ACB720}|ITstep.Application\\ITstep.Application.csproj|C:\\Users\\gghgg\\Desktop\\ITsetp\\itstep.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA6B01E4-9704-4942-8732-90A721ACB720}|ITstep.Application\\ITstep.Application.csproj|solutionrelative:itstep.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F37363F5-FDAA-409B-A367-F8B9EB3BFD5B}|ITstep.WEB\\ITstep.WEB.csproj|C:\\Users\\gghgg\\Desktop\\ITsetp\\itstep.web\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F37363F5-FDAA-409B-A367-F8B9EB3BFD5B}|ITstep.WEB\\ITstep.WEB.csproj|c:\\users\\\u0434\u0435\u043D\u0438\u0441\\desktop\\itstep\\itstep.web\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F37363F5-FDAA-409B-A367-F8B9EB3BFD5B}|ITstep.WEB\\ITstep.WEB.csproj|solutionrelative:itstep.web\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F37363F5-FDAA-409B-A367-F8B9EB3BFD5B}|ITstep.WEB\\ITstep.WEB.csproj|C:\\Users\\gghgg\\Desktop\\ITsetp\\itstep.web\\components\\pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F37363F5-FDAA-409B-A367-F8B9EB3BFD5B}|ITstep.WEB\\ITstep.WEB.csproj|c:\\users\\\u0434\u0435\u043D\u0438\u0441\\desktop\\itstep\\itstep.web\\components\\pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F37363F5-FDAA-409B-A367-F8B9EB3BFD5B}|ITstep.WEB\\ITstep.WEB.csproj|solutionrelative:itstep.web\\components\\pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F37363F5-FDAA-409B-A367-F8B9EB3BFD5B}|ITstep.WEB\\ITstep.WEB.csproj|C:\\Users\\gghgg\\Desktop\\ITsetp\\itstep.web\\components\\pages\\sign.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F37363F5-FDAA-409B-A367-F8B9EB3BFD5B}|ITstep.WEB\\ITstep.WEB.csproj|c:\\users\\\u0434\u0435\u043D\u0438\u0441\\desktop\\itstep\\itstep.web\\components\\pages\\sign.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F37363F5-FDAA-409B-A367-F8B9EB3BFD5B}|ITstep.WEB\\ITstep.WEB.csproj|solutionrelative:itstep.web\\components\\pages\\sign.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA6B01E4-9704-4942-8732-90A721ACB720}|ITstep.Application\\ITstep.Application.csproj|C:\\Users\\gghgg\\Desktop\\ITsetp\\itstep.application\\itstep.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{1110FCDA-7112-42A9-9724-BD12672FE5CA}|ITstep.API\\ITstep.API.csproj|c:\\users\\\u0434\u0435\u043D\u0438\u0441\\desktop\\itstep\\itstep.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1110FCDA-7112-42A9-9724-BD12672FE5CA}|ITstep.API\\ITstep.API.csproj|solutionrelative:itstep.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1110FCDA-7112-42A9-9724-BD12672FE5CA}|ITstep.API\\ITstep.API.csproj|c:\\users\\\u0434\u0435\u043D\u0438\u0441\\desktop\\itstep\\itstep.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1110FCDA-7112-42A9-9724-BD12672FE5CA}|ITstep.API\\ITstep.API.csproj|solutionrelative:itstep.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA6B01E4-9704-4942-8732-90A721ACB720}|ITstep.Application\\ITstep.Application.csproj|c:\\users\\\u0434\u0435\u043D\u0438\u0441\\desktop\\itstep\\itstep.application\\itstep.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{BA6B01E4-9704-4942-8732-90A721ACB720}|ITstep.Application\\ITstep.Application.csproj|solutionrelative:itstep.application\\itstep.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -54,7 +42,7 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Bookmark",
@@ -91,59 +79,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Auth.razor",
-              "DocumentMoniker": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.MudWEB\\Components\\Pages\\Auth.razor",
-              "RelativeDocumentMoniker": "ITstep.MudWEB\\Components\\Pages\\Auth.razor",
-              "ToolTip": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.MudWEB\\Components\\Pages\\Auth.razor",
-              "RelativeToolTip": "ITstep.MudWEB\\Components\\Pages\\Auth.razor",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T21:07:29.967Z",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\ITstep\\ITstep.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "ITstep.Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\ITstep\\ITstep.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "ITstep.Application\\Services\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T20:45:46.745Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.Application\\Services\\UserRepository.cs",
-              "RelativeDocumentMoniker": "ITstep.Application\\Services\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.Application\\Services\\UserRepository.cs",
-              "RelativeToolTip": "ITstep.Application\\Services\\UserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T20:48:44.419Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.Application\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "ITstep.Application\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.Application\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "ITstep.Application\\Interfaces\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T20:45:55.841Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.Application\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "ITstep.Application\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.Application\\Services\\UserService.cs",
-              "RelativeToolTip": "ITstep.Application\\Services\\UserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T20:45:46.745Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.WEB\\Components\\Layout\\MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\ITstep\\ITstep.WEB\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "ITstep.WEB\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.WEB\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\ITstep\\ITstep.WEB\\Components\\Layout\\MainLayout.razor",
               "RelativeToolTip": "ITstep.WEB\\Components\\Layout\\MainLayout.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -151,11 +103,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Profile.razor",
-              "DocumentMoniker": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.WEB\\Components\\Pages\\Profile.razor",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\ITstep\\ITstep.WEB\\Components\\Pages\\Profile.razor",
               "RelativeDocumentMoniker": "ITstep.WEB\\Components\\Pages\\Profile.razor",
-              "ToolTip": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.WEB\\Components\\Pages\\Profile.razor",
+              "ToolTip": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\ITstep\\ITstep.WEB\\Components\\Pages\\Profile.razor",
               "RelativeToolTip": "ITstep.WEB\\Components\\Pages\\Profile.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -163,11 +115,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "Sign.razor",
-              "DocumentMoniker": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.WEB\\Components\\Pages\\Sign.razor",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\ITstep\\ITstep.WEB\\Components\\Pages\\Sign.razor",
               "RelativeDocumentMoniker": "ITstep.WEB\\Components\\Pages\\Sign.razor",
-              "ToolTip": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.WEB\\Components\\Pages\\Sign.razor",
+              "ToolTip": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\ITstep\\ITstep.WEB\\Components\\Pages\\Sign.razor",
               "RelativeToolTip": "ITstep.WEB\\Components\\Pages\\Sign.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -175,11 +127,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.API\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\ITstep\\ITstep.API\\Program.cs",
               "RelativeDocumentMoniker": "ITstep.API\\Program.cs",
-              "ToolTip": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.API\\Program.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\ITstep\\ITstep.API\\Program.cs",
               "RelativeToolTip": "ITstep.API\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -187,24 +139,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.API\\Controllers\\UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\ITstep\\ITstep.API\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "ITstep.API\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\ITstep\\ITstep.API\\Controllers\\UsersController.cs",
               "RelativeToolTip": "ITstep.API\\Controllers\\UsersController.cs",
               "ViewState": "AQIAACkAAAAAAAAAAAAswB8AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T16:46:28.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T16:46:28.413Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "ITstep.Application.csproj",
-              "DocumentMoniker": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.Application\\ITstep.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\ITstep\\ITstep.Application\\ITstep.Application.csproj",
               "RelativeDocumentMoniker": "ITstep.Application\\ITstep.Application.csproj",
-              "ToolTip": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.Application\\ITstep.Application.csproj",
+              "ToolTip": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\ITstep\\ITstep.Application\\ITstep.Application.csproj",
               "RelativeToolTip": "ITstep.Application\\ITstep.Application.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",

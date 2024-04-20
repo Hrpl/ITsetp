@@ -1,27 +1,27 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.Desktop\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\ITstep.Desktop.styles.css",
+      "Id": "C:\\Users\\Денис\\Desktop\\ITstep\\ITstep.Desktop\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\ITstep.Desktop.styles.css",
       "PackagePath": "staticwebassets\\ITstep.Desktop.styles.css"
     },
     {
-      "Id": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.Desktop\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\Денис\\Desktop\\ITstep\\ITstep.Desktop\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.Desktop\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\Денис\\Desktop\\ITstep\\ITstep.Desktop\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.Desktop\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Денис\\Desktop\\ITstep\\ITstep.Desktop\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.Desktop\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\Денис\\Desktop\\ITstep\\ITstep.Desktop\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.Desktop\\wwwroot\\index.html",
+      "Id": "C:\\Users\\Денис\\Desktop\\ITstep\\ITstep.Desktop\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
