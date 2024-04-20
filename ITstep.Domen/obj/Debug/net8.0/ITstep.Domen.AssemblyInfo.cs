@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ITstep.Domen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9b8f722f95c336f82d3a6ace76a75146d899cf8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aec4f3a95aa18c28eb87c9ee96feb0b3fdbc102c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ITstep.Domen")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ITstep.Domen")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

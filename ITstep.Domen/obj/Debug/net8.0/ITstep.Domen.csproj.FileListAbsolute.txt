@@ -28,3 +28,18 @@ C:\Users\Денис\Desktop\ITsetp\ITstep.Domen\obj\Debug\net8.0\refint\ITstep.D
 C:\Users\Денис\Desktop\ITsetp\ITstep.Domen\obj\Debug\net8.0\ITstep.Domen.pdb
 C:\Users\Денис\Desktop\ITsetp\ITstep.Domen\obj\Debug\net8.0\ITstep.Domen.genruntimeconfig.cache
 C:\Users\Денис\Desktop\ITsetp\ITstep.Domen\obj\Debug\net8.0\ref\ITstep.Domen.dll
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Domen\bin\Debug\net8.0\ITstep.Domen.deps.json
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Domen\bin\Debug\net8.0\ITstep.Domen.runtimeconfig.json
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Domen\bin\Debug\net8.0\ITstep.Domen.dll
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Domen\bin\Debug\net8.0\ITstep.Domen.pdb
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Domen\obj\Debug\net8.0\ITstep.Domen.csproj.AssemblyReference.cache
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Domen\obj\Debug\net8.0\ITstep.Domen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Domen\obj\Debug\net8.0\ITstep.Domen.AssemblyInfoInputs.cache
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Domen\obj\Debug\net8.0\ITstep.Domen.AssemblyInfo.cs
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Domen\obj\Debug\net8.0\ITstep.Domen.csproj.CoreCompileInputs.cache
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Domen\obj\Debug\net8.0\ITstep.Domen.sourcelink.json
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Domen\obj\Debug\net8.0\ITstep.Domen.dll
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Domen\obj\Debug\net8.0\refint\ITstep.Domen.dll
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Domen\obj\Debug\net8.0\ITstep.Domen.pdb
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Domen\obj\Debug\net8.0\ITstep.Domen.genruntimeconfig.cache
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Domen\obj\Debug\net8.0\ref\ITstep.Domen.dll
