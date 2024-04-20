@@ -3,72 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\ITstep\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F2C44A79-C275-4F70-A407-07C86316CF56}|ITstep.Domen\\ITstep.Domen.csproj|c:\\users\\user\\desktop\\itstep\\itstep.domen\\migrations\\20240420111350_create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2C44A79-C275-4F70-A407-07C86316CF56}|ITstep.Domen\\ITstep.Domen.csproj|solutionrelative:itstep.domen\\migrations\\20240420111350_create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2C44A79-C275-4F70-A407-07C86316CF56}|ITstep.Domen\\ITstep.Domen.csproj|c:\\users\\user\\desktop\\itstep\\itstep.domen\\stepdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2C44A79-C275-4F70-A407-07C86316CF56}|ITstep.Domen\\ITstep.Domen.csproj|solutionrelative:itstep.domen\\stepdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2C44A79-C275-4F70-A407-07C86316CF56}|ITstep.Domen\\ITstep.Domen.csproj|c:\\users\\user\\desktop\\itstep\\itstep.domen\\itstep.domen.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F2C44A79-C275-4F70-A407-07C86316CF56}|ITstep.Domen\\ITstep.Domen.csproj|solutionrelative:itstep.domen\\itstep.domen.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1110FCDA-7112-42A9-9724-BD12672FE5CA}|ITstep.API\\ITstep.API.csproj|c:\\users\\user\\desktop\\itstep\\itstep.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1110FCDA-7112-42A9-9724-BD12672FE5CA}|ITstep.API\\ITstep.API.csproj|solutionrelative:itstep.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2C44A79-C275-4F70-A407-07C86316CF56}|ITstep.Domen\\ITstep.Domen.csproj|c:\\users\\user\\desktop\\itstep\\itstep.domen\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2C44A79-C275-4F70-A407-07C86316CF56}|ITstep.Domen\\ITstep.Domen.csproj|solutionrelative:itstep.domen\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F37363F5-FDAA-409B-A367-F8B9EB3BFD5B}|ITstep.WEB\\ITstep.WEB.csproj|c:\\users\\user\\desktop\\itstep\\itstep.web\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F37363F5-FDAA-409B-A367-F8B9EB3BFD5B}|ITstep.WEB\\ITstep.WEB.csproj|solutionrelative:itstep.web\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F37363F5-FDAA-409B-A367-F8B9EB3BFD5B}|ITstep.WEB\\ITstep.WEB.csproj|c:\\users\\user\\desktop\\itstep\\itstep.web\\components\\pages\\sign.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F37363F5-FDAA-409B-A367-F8B9EB3BFD5B}|ITstep.WEB\\ITstep.WEB.csproj|solutionrelative:itstep.web\\components\\pages\\sign.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F37363F5-FDAA-409B-A367-F8B9EB3BFD5B}|ITstep.WEB\\ITstep.WEB.csproj|c:\\users\\user\\desktop\\itstep\\itstep.web\\components\\pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F37363F5-FDAA-409B-A367-F8B9EB3BFD5B}|ITstep.WEB\\ITstep.WEB.csproj|solutionrelative:itstep.web\\components\\pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F37363F5-FDAA-409B-A367-F8B9EB3BFD5B}|ITstep.WEB\\ITstep.WEB.csproj|c:\\users\\user\\desktop\\itstep\\itstep.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F37363F5-FDAA-409B-A367-F8B9EB3BFD5B}|ITstep.WEB\\ITstep.WEB.csproj|solutionrelative:itstep.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1110FCDA-7112-42A9-9724-BD12672FE5CA}|ITstep.API\\ITstep.API.csproj|c:\\users\\user\\desktop\\itstep\\itstep.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1110FCDA-7112-42A9-9724-BD12672FE5CA}|ITstep.API\\ITstep.API.csproj|solutionrelative:itstep.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1110FCDA-7112-42A9-9724-BD12672FE5CA}|ITstep.API\\ITstep.API.csproj|c:\\users\\user\\desktop\\itstep\\itstep.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1110FCDA-7112-42A9-9724-BD12672FE5CA}|ITstep.API\\ITstep.API.csproj|solutionrelative:itstep.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88E8AD05-AA12-456B-A25C-705D3901D909}|ITstep.Desktop\\ITstep.Desktop.csproj|c:\\users\\user\\desktop\\itstep\\itstep.desktop\\itstep.desktop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{88E8AD05-AA12-456B-A25C-705D3901D909}|ITstep.Desktop\\ITstep.Desktop.csproj|solutionrelative:itstep.desktop\\itstep.desktop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F37363F5-FDAA-409B-A367-F8B9EB3BFD5B}|ITstep.WEB\\ITstep.WEB.csproj|c:\\users\\user\\desktop\\itstep\\itstep.web\\components\\pages\\tpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F37363F5-FDAA-409B-A367-F8B9EB3BFD5B}|ITstep.WEB\\ITstep.WEB.csproj|solutionrelative:itstep.web\\components\\pages\\tpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F37363F5-FDAA-409B-A367-F8B9EB3BFD5B}|ITstep.WEB\\ITstep.WEB.csproj|c:\\users\\user\\desktop\\itstep\\itstep.web\\components\\pages\\spage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F37363F5-FDAA-409B-A367-F8B9EB3BFD5B}|ITstep.WEB\\ITstep.WEB.csproj|solutionrelative:itstep.web\\components\\pages\\spage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F37363F5-FDAA-409B-A367-F8B9EB3BFD5B}|ITstep.WEB\\ITstep.WEB.csproj|c:\\users\\user\\desktop\\itstep\\itstep.web\\components\\pages\\fpages.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F37363F5-FDAA-409B-A367-F8B9EB3BFD5B}|ITstep.WEB\\ITstep.WEB.csproj|solutionrelative:itstep.web\\components\\pages\\fpages.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88E8AD05-AA12-456B-A25C-705D3901D909}|ITstep.Desktop\\ITstep.Desktop.csproj|c:\\users\\user\\desktop\\itstep\\itstep.desktop\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88E8AD05-AA12-456B-A25C-705D3901D909}|ITstep.Desktop\\ITstep.Desktop.csproj|solutionrelative:itstep.desktop\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E85B8546-C890-49DE-8E09-2702B1442BB7}|ITstep.Android\\ITstep.Android.csproj|c:\\users\\user\\desktop\\itstep\\itstep.android\\itstep.android.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E85B8546-C890-49DE-8E09-2702B1442BB7}|ITstep.Android\\ITstep.Android.csproj|solutionrelative:itstep.android\\itstep.android.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E85B8546-C890-49DE-8E09-2702B1442BB7}|ITstep.Android\\ITstep.Android.csproj|c:\\users\\user\\desktop\\itstep\\itstep.android\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E85B8546-C890-49DE-8E09-2702B1442BB7}|ITstep.Android\\ITstep.Android.csproj|solutionrelative:itstep.android\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,232 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20240420111350_create.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Domen\\Migrations\\20240420111350_create.cs",
-              "RelativeDocumentMoniker": "ITstep.Domen\\Migrations\\20240420111350_create.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Domen\\Migrations\\20240420111350_create.cs",
-              "RelativeToolTip": "ITstep.Domen\\Migrations\\20240420111350_create.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T11:13:50.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StepDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Domen\\StepDbContext.cs",
-              "RelativeDocumentMoniker": "ITstep.Domen\\StepDbContext.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Domen\\StepDbContext.cs",
-              "RelativeToolTip": "ITstep.Domen\\StepDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T11:06:51.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Domen\\Models\\User.cs",
               "RelativeDocumentMoniker": "ITstep.Domen\\Models\\User.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Domen\\Models\\User.cs",
               "RelativeToolTip": "ITstep.Domen\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAlAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwA4AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T11:01:36.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.razor",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\Components\\Pages\\Login.razor",
-              "RelativeDocumentMoniker": "ITstep.WEB\\Components\\Pages\\Login.razor",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\Components\\Pages\\Login.razor",
-              "RelativeToolTip": "ITstep.WEB\\Components\\Pages\\Login.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T10:59:04.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.API\\Program.cs",
-              "RelativeDocumentMoniker": "ITstep.API\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.API\\Program.cs",
-              "RelativeToolTip": "ITstep.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T10:28:16.195Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "ITstep.API\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "ITstep.API\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-20T10:28:20.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\Program.cs",
-              "RelativeDocumentMoniker": "ITstep.WEB\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\Program.cs",
-              "RelativeToolTip": "ITstep.WEB\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T10:24:52.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TPage.razor",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\Components\\Pages\\TPage.razor",
-              "RelativeDocumentMoniker": "ITstep.WEB\\Components\\Pages\\TPage.razor",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\Components\\Pages\\TPage.razor",
-              "RelativeToolTip": "ITstep.WEB\\Components\\Pages\\TPage.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T10:23:37.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SPage.razor",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\Components\\Pages\\SPage.razor",
-              "RelativeDocumentMoniker": "ITstep.WEB\\Components\\Pages\\SPage.razor",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\Components\\Pages\\SPage.razor",
-              "RelativeToolTip": "ITstep.WEB\\Components\\Pages\\SPage.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T10:23:22.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "FPages.razor",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\Components\\Pages\\FPages.razor",
-              "RelativeDocumentMoniker": "ITstep.WEB\\Components\\Pages\\FPages.razor",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\Components\\Pages\\FPages.razor",
-              "RelativeToolTip": "ITstep.WEB\\Components\\Pages\\FPages.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T10:23:05.243Z",
+              "WhenOpened": "2024-04-20T11:33:54.609Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ITstep.Domen.csproj",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Domen\\ITstep.Domen.csproj",
-              "RelativeDocumentMoniker": "ITstep.Domen\\ITstep.Domen.csproj",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Domen\\ITstep.Domen.csproj",
-              "RelativeToolTip": "ITstep.Domen\\ITstep.Domen.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-20T09:59:32.97Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.API\\Program.cs",
+              "RelativeDocumentMoniker": "ITstep.API\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.API\\Program.cs",
+              "RelativeToolTip": "ITstep.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T11:28:12.198Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Profile.razor",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\Components\\Pages\\Profile.razor",
-              "RelativeDocumentMoniker": "ITstep.WEB\\Components\\Pages\\Profile.razor",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\Components\\Pages\\Profile.razor",
-              "RelativeToolTip": "ITstep.WEB\\Components\\Pages\\Profile.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T10:58:36.826Z",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "ITstep.API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "ITstep.API\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T11:25:56.983Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Sign.razor",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\Components\\Pages\\Sign.razor",
-              "RelativeDocumentMoniker": "ITstep.WEB\\Components\\Pages\\Sign.razor",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.WEB\\Components\\Pages\\Sign.razor",
-              "RelativeToolTip": "ITstep.WEB\\Components\\Pages\\Sign.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T10:58:51.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ITstep.Desktop.csproj",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Desktop\\ITstep.Desktop.csproj",
-              "RelativeDocumentMoniker": "ITstep.Desktop\\ITstep.Desktop.csproj",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Desktop\\ITstep.Desktop.csproj",
-              "RelativeToolTip": "ITstep.Desktop\\ITstep.Desktop.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-20T09:58:45.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Desktop\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "ITstep.Desktop\\Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Desktop\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "ITstep.Desktop\\Components\\Pages\\Home.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T09:58:36.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ITstep.Android.csproj",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Android\\ITstep.Android.csproj",
-              "RelativeDocumentMoniker": "ITstep.Android\\ITstep.Android.csproj",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Android\\ITstep.Android.csproj",
-              "RelativeToolTip": "ITstep.Android\\ITstep.Android.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-20T09:57:40.262Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Android\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "ITstep.Android\\Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Android\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "ITstep.Android\\Components\\Pages\\Home.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T09:57:36.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

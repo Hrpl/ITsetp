@@ -22,10 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\ITstep.Application\ITstep.Application.csproj" />
     <ProjectReference Include="..\ITstep.Domen\ITstep.Domen.csproj" />
   </ItemGroup>
