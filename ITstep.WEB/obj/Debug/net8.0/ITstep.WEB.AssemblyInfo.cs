@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ITstep.WEB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28e139f3adf85663ab063723ee85806cd351e18c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8a23c022144bafbc3d019908f23bd129b77cc6b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ITstep.WEB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ITstep.WEB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

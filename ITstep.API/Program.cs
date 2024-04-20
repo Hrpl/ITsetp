@@ -1,3 +1,5 @@
+using ITstep.Application.Interfaces;
+using ITstep.Application.Services;
 using ITstep.Domen;
 using System.Text.Json.Serialization;
 
@@ -14,6 +16,7 @@ builder.Services.AddCors();
 builder.Services.AddAntiforgery();
 
 builder.Services.AddDbContext<StepDbContext>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 
 var app = builder.Build();

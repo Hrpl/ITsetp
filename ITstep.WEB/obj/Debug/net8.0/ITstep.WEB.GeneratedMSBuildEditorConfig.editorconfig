@@ -9,79 +9,79 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ITstep.WEB
 build_property.RootNamespace = ITstep.WEB
-build_property.ProjectDir = C:\Users\User\Desktop\ITstep\ITstep.WEB\
+build_property.ProjectDir = C:\Users\Денис\Desktop\ITsetp\ITstep.WEB\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\ITstep\ITstep.WEB
+build_property.MSBuildProjectDirectory = C:\Users\Денис\Desktop\ITsetp\ITstep.WEB
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/User/Desktop/ITstep/ITstep.WEB/Components/App.razor]
+[C:/Users/Денис/Desktop/ITsetp/ITstep.WEB/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/ITstep/ITstep.WEB/Components/Pages/FPages-end.razor]
+[C:/Users/Денис/Desktop/ITsetp/ITstep.WEB/Components/Pages/FPages-end.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xGUGFnZXMtZW5kLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/ITstep/ITstep.WEB/Components/Pages/FPages.razor]
+[C:/Users/Денис/Desktop/ITsetp/ITstep.WEB/Components/Pages/FPages.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xGUGFnZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/ITstep/ITstep.WEB/Components/Pages/Home.razor]
+[C:/Users/Денис/Desktop/ITsetp/ITstep.WEB/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/ITstep/ITstep.WEB/Components/Pages/Lesson1-1.razor]
+[C:/Users/Денис/Desktop/ITsetp/ITstep.WEB/Components/Pages/Lesson1-1.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMZXNzb24xLTEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/ITstep/ITstep.WEB/Components/Pages/Lesson1-2.razor]
+[C:/Users/Денис/Desktop/ITsetp/ITstep.WEB/Components/Pages/Lesson1-2.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMZXNzb24xLTIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/ITstep/ITstep.WEB/Components/Pages/Lesson1-3.razor]
+[C:/Users/Денис/Desktop/ITsetp/ITstep.WEB/Components/Pages/Lesson1-3.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMZXNzb24xLTMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/ITstep/ITstep.WEB/Components/Pages/Lesson2-1.razor]
+[C:/Users/Денис/Desktop/ITsetp/ITstep.WEB/Components/Pages/Lesson2-1.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMZXNzb24yLTEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/ITstep/ITstep.WEB/Components/Pages/Lesson2-2.razor]
+[C:/Users/Денис/Desktop/ITsetp/ITstep.WEB/Components/Pages/Lesson2-2.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMZXNzb24yLTIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/ITstep/ITstep.WEB/Components/Pages/Lesson2-3.razor]
+[C:/Users/Денис/Desktop/ITsetp/ITstep.WEB/Components/Pages/Lesson2-3.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMZXNzb24yLTMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/ITstep/ITstep.WEB/Components/Pages/Login.razor]
+[C:/Users/Денис/Desktop/ITsetp/ITstep.WEB/Components/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2dpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/ITstep/ITstep.WEB/Components/Pages/Sign.razor]
+[C:/Users/Денис/Desktop/ITsetp/ITstep.WEB/Components/Pages/Sign.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTaWduLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/ITstep/ITstep.WEB/Components/Pages/SPage.razor]
+[C:/Users/Денис/Desktop/ITsetp/ITstep.WEB/Components/Pages/SPage.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/ITstep/ITstep.WEB/Components/Pages/TPage.razor]
+[C:/Users/Денис/Desktop/ITsetp/ITstep.WEB/Components/Pages/TPage.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/ITstep/ITstep.WEB/Components/Routes.razor]
+[C:/Users/Денис/Desktop/ITsetp/ITstep.WEB/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/ITstep/ITstep.WEB/Components/_Imports.razor]
+[C:/Users/Денис/Desktop/ITsetp/ITstep.WEB/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/ITstep/ITstep.WEB/Components/Layout/MainLayout.razor]
+[C:/Users/Денис/Desktop/ITsetp/ITstep.WEB/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-t1nutoyk9g

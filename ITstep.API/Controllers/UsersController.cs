@@ -1,4 +1,6 @@
-﻿using ITstep.Domen;
+﻿using ITstep.Application.Interfaces;
+using ITstep.Application.Services;
+using ITstep.Domen;
 using ITstep.Domen.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -12,17 +14,18 @@ namespace ITstep.API.Controllers
     public class UsersController : ControllerBase
     {
         protected readonly StepDbContext _db;
-
-        public UsersController (StepDbContext db)
+        protected readonly IUserRepository _repo;
+        public UsersController (StepDbContext db, IUserRepository repo)
         {
             _db = db;
+            _repo = repo;
         }
 
         // GET: api/<UsersController>
         [HttpGet]
         public async Task<ActionResult<IEnumerable<User>>> GetUsers()
         {
-            var users = await _db.Users.ToListAsync();
+            var users = await _repo.GetAllAsync();
             if (users != null) return Ok(users);
             else return BadRequest(users);
         }
@@ -31,26 +34,19 @@ namespace ITstep.API.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<User>> GetUser([FromRoute] int id)
         {
-            var users = await _db.Users.Where(u => u.Id == id).FirstOrDefaultAsync();
+            var users = await _repo.GetUserAsync(id);
             if (users != null) return Ok(users);
             else return BadRequest(users);
         }
+
         // Post api/<UsersController>
         [HttpPost]
         public async Task<ActionResult> PostUser(User user)
         {
             if (user != null)
             {
-                await _db.Users.AddAsync(user);
-                try
-                {
-                    _db.SaveChanges();
-                    return Ok("Пользователь сохранён");
-                }
-                catch (Exception ex)
-                {
-                    return BadRequest("Ошибка сохранения пользователя");
-                }
+                _repo.AddUserAsync(user);
+                return Ok("Пользователь добавлен");
             }
             else return BadRequest("Пользователя пришёл как null");
         }
