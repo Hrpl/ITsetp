@@ -1,5 +1,29 @@
-﻿<h3>Profile</h3>
+﻿@page "/p"
+
+@using ITstep.Domen.Models
+@inject HttpClient http
+
+<div class="row justify-content-center">
+    <div class="card" style="width: 18rem;">
+        <img src="@user.Photo" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Профиль</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Имя: @user.Name</li>
+            <li class="list-group-item">Фамилия: @user.Surname</li>
+            <li class="list-group-item">Логин: @user.Login</li>
+            <li class="list-group-item">Номер: @user.Password</li>
+            <li class="list-group-item">Баллы: @user.Score</li>
+        </ul>
+    </div>
+</div>
 
 @code {
+    User user = new User();
 
+    protected async override Task OnInitializedAsync()
+    {
+        user = await http.GetFromJsonAsync<User>($"http://10.77.37.31:5079/api/Users/{1}");
+    }
 }
