@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\gghgg\\Desktop\\vs studio\\ITsetp\\ITstep.MudWEB\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\gghgg\\Desktop\\vs studio\\ITsetp\\ITstep.MudWEB\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ITstep.MudWEB.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ITstep.MudWEB.props",
+      "PackagePath": "build\\ITstep.MudWEB.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ITstep.MudWEB.props",
+      "PackagePath": "buildMultiTargeting\\ITstep.MudWEB.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ITstep.MudWEB.props",
+      "PackagePath": "buildTransitive\\ITstep.MudWEB.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
