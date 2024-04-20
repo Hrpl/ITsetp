@@ -45,7 +45,7 @@ namespace ITstep.API.Controllers
                 try
                 {
                     _db.SaveChanges();
-                    return BadRequest("Пользователь сохранён");
+                    return Ok("Пользователь сохранён");
                 }
                 catch (Exception ex)
                 {
