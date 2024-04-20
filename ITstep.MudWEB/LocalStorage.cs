@@ -1,6 +1,7 @@
-﻿namespace ITstep.MudWEB;
+﻿using ITstep.Domen.Models;
+namespace ITstep.MudWEB;
 
 public class LocalStorage
 {
-    public int sessinId { get; set; } = 0;
+    public User sessinUser { get; set; } = null;
 }
