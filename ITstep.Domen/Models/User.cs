@@ -16,7 +16,7 @@ public class User
     public string Password { get; set; }
     public string Phone { get; set; }   
     public string? Deportament {  get; set; }
-    public int? Score { get; set; }
-    public bool? IsPassed { get; set; }
-    public string? Photo { get; set; }
+    public int? Score { get; set; } = 0;
+    public bool? IsPassed { get; set; } = false;
+    public string? Photo { get; set; } = "https://amu.edu.kz/upload/default-avatar.jpg";
 }
