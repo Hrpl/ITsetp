@@ -16,3 +16,21 @@ C:\Users\User\Desktop\ITstep\ITstep.Application\obj\Debug\net8.0\refint\ITstep.A
 C:\Users\User\Desktop\ITstep\ITstep.Application\obj\Debug\net8.0\ITstep.Application.pdb
 C:\Users\User\Desktop\ITstep\ITstep.Application\obj\Debug\net8.0\ITstep.Application.genruntimeconfig.cache
 C:\Users\User\Desktop\ITstep\ITstep.Application\obj\Debug\net8.0\ref\ITstep.Application.dll
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Application\bin\Debug\net8.0\ITstep.Application.deps.json
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Application\bin\Debug\net8.0\ITstep.Application.runtimeconfig.json
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Application\bin\Debug\net8.0\ITstep.Application.dll
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Application\bin\Debug\net8.0\ITstep.Application.pdb
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Application\bin\Debug\net8.0\ITstep.Domen.dll
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Application\bin\Debug\net8.0\ITstep.Domen.pdb
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Application\obj\Debug\net8.0\ITstep.Application.csproj.AssemblyReference.cache
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Application\obj\Debug\net8.0\ITstep.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Application\obj\Debug\net8.0\ITstep.Application.AssemblyInfoInputs.cache
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Application\obj\Debug\net8.0\ITstep.Application.AssemblyInfo.cs
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Application\obj\Debug\net8.0\ITstep.Application.csproj.CoreCompileInputs.cache
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Application\obj\Debug\net8.0\ITstep.Application.sourcelink.json
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Application\obj\Debug\net8.0\ITstep.A.CD477ABD.Up2Date
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Application\obj\Debug\net8.0\ITstep.Application.dll
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Application\obj\Debug\net8.0\refint\ITstep.Application.dll
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Application\obj\Debug\net8.0\ITstep.Application.pdb
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Application\obj\Debug\net8.0\ITstep.Application.genruntimeconfig.cache
+C:\Users\gghgg\Desktop\vs studio\ITsetp\ITstep.Application\obj\Debug\net8.0\ref\ITstep.Application.dll

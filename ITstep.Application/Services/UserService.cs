@@ -21,9 +21,9 @@ public class UserService : IUserService
         _db = db;
         _logger = logger;
     }
-    public Task<User> Login(string login, string password)
+    public async Task<User> Login(string login, string password)
     {
-        var user = _db.Users.Where(p => p.Login == login && p.Password == password).FirstOrDefaultAsync();
+        var user = await _db.Users.Where(p => p.Login == login && p.Password == password).FirstOrDefaultAsync();
         return user;
     }
 }

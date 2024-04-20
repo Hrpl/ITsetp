@@ -1,6 +1,18 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\gghgg\\Desktop\\vs studio\\ITsetp\\ITstep.MudWEB\\wwwroot\\1.png",
+      "PackagePath": "staticwebassets\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\gghgg\\Desktop\\vs studio\\ITsetp\\ITstep.MudWEB\\wwwroot\\2.png",
+      "PackagePath": "staticwebassets\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\gghgg\\Desktop\\vs studio\\ITsetp\\ITstep.MudWEB\\wwwroot\\3.png",
+      "PackagePath": "staticwebassets\\3.png"
+    },
+    {
       "Id": "C:\\Users\\gghgg\\Desktop\\vs studio\\ITsetp\\ITstep.MudWEB\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },

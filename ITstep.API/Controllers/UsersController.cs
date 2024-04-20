@@ -57,7 +57,7 @@ namespace ITstep.API.Controllers
         [HttpGet("Auth")]
         public async Task<ActionResult<User>> Login(string login, string password)
         {
-            var user  = _service.Login(login, password);
+            var user  = await _service.Login(login, password);
             if (user != null) return Ok(user);
             else return BadRequest(user);
         }
