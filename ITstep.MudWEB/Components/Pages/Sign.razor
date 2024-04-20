@@ -1,0 +1,103 @@
+﻿@page "/counter"
+@rendermode InteractiveServer
+@inject HttpClient http
+@inject NavigationManager manager
+@using System.Text.RegularExpressions
+@using System.ComponentModel.DataAnnotations
+@using ITstep.Domen.Models
+
+<MudPopoverProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<EditForm Model="@model" OnValidSubmit="OnValidSubmit">
+    <DataAnnotationsValidator />
+    <MudItem xs="12" sm="7">
+        <MudCard>
+            <MudCardContent>
+                <MudTextField Label="First name" HelperText="Max. 30 characters"
+                              @bind-Value="model.UserSurname" For="@(() => model.UserSurname)" />
+                <MudTextField Label="Name" HelperText="Max. 30 characters"
+                              @bind-Value="model.UserName" For="@(() => model.UserName)" />
+                <MudTextField Label="Email" Class="mt-3"
+                              @bind-Value="model.Email" For="@(() => model.Email)" />
+                <MudTextField Label="Login" HelperText="Min. 1 characters"
+                              @bind-Value="model.Login" For="@(() => model.Login)" />
+                <MudTextField Label="Password" HelperText="Choose a strong password" Class="mt-3"
+                              @bind-Value="model.Password" For="@(() => model.Password)" InputType="InputType.Password" />
+                <MudTextField Label="Password" HelperText="Repeat the password" Class="mt-3"
+                              @bind-Value="model.Password2" For="@(() => model.Password2)" InputType="InputType.Password" />
+                <MudTextField Label="Phone" Mask="@(new PatternMask("+0 (000) 000-00-00"))"
+                              @bind-Value="model.Phone" />
+                <MudSelect T="string" Label="Отдел" @bind-Value="model.Deportament" AnchorOrigin="Origin.BottomCenter">
+                    <MudSelectItem Value="@("IT")" />
+                    <MudSelectItem Value="@("HR")" />
+                </MudSelect>
+            </MudCardContent>
+            <MudCardActions>
+                <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">Зарегистрироваться</MudButton>
+            </MudCardActions>
+        </MudCard>
+    </MudItem>
+</EditForm>
+@code {
+    RegisterAccountForm model = new RegisterAccountForm();
+    User user = new();
+    bool success;
+
+    public class RegisterAccountForm
+    {
+        [Required]
+        [StringLength(30, ErrorMessage = "Name length can't be more than 30.")]
+        public string UserName { get; set; }
+
+        [Required]
+        [StringLength(30, ErrorMessage = "Name length can't be more than 30.")]
+        public string UserSurname { get; set; }
+
+        [Required]
+        [EmailAddress]
+        public string Email { get; set; }
+
+        [Required]
+        public string Login { get; set; }
+
+        [Required]
+        [StringLength(30, ErrorMessage = "Password must be at least 8 characters long.", MinimumLength = 8)]
+        public string Password { get; set; }
+
+        [Required]
+        [Compare(nameof(Password))]
+        public string Password2 { get; set; }
+
+        [Required]
+        public string Phone { get; set; }
+
+        [Required]
+        public string Deportament { get; set; }
+
+    }
+
+    public async Task OnValidSubmit(EditContext context)
+    {
+        user.Surname = model.UserSurname;
+        user.Name = model.UserName;
+        user.Email = model.Email;
+        user.Login = model.Login;
+        user.Password = model.Password;
+        user.Phone = model.Phone;
+        user.Deportament = model.Deportament;
+        var response = await http.PostAsJsonAsync($"http://192.168.1.68:5079/api/Users", user);
+        if (response.IsSuccessStatusCode)
+        {
+            manager.NavigateTo("/Auth");
+        }
+        else
+        {
+            // Обработка ошибки, например, вывод сообщения об ошибке
+            var errorContent = await response.Content.ReadAsStringAsync();
+            Console.WriteLine($"Error: {errorContent}");
+        }
+        StateHasChanged();
+    }
+}

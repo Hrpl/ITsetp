@@ -9613,24 +9613,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Денис\\.nuget\\packages\\": {},
+    "C:\\Users\\gghgg\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Денис\\Desktop\\ITsetp\\ITstep.Desktop\\ITstep.Desktop.csproj",
+      "projectUniqueName": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.Desktop\\ITstep.Desktop.csproj",
       "projectName": "ITstep.Desktop",
-      "projectPath": "C:\\Users\\Денис\\Desktop\\ITsetp\\ITstep.Desktop\\ITstep.Desktop.csproj",
-      "packagesPath": "C:\\Users\\Денис\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Денис\\Desktop\\ITsetp\\ITstep.Desktop\\obj\\",
+      "projectPath": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.Desktop\\ITstep.Desktop.csproj",
+      "packagesPath": "C:\\Users\\gghgg\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gghgg\\Desktop\\ITsetp\\ITstep.Desktop\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Денис\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gghgg\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -9729,7 +9729,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

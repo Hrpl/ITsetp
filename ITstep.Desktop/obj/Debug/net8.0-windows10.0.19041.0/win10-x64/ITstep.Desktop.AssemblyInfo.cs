@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ITstep.Desktop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f8a23c022144bafbc3d019908f23bd129b77cc6b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+37eeca83ba120f21d897a8247510ec84654250f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ITstep.Desktop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ITstep.Desktop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,51 @@
+﻿@page "/Auth"
+@rendermode InteractiveServer
+@inject HttpClient http
+@inject NavigationManager manager
+@inject LocalStorage session
+@using System.Text.RegularExpressions
+@using System.ComponentModel.DataAnnotations
+@using ITstep.Domen.Models
+
+<MudPopoverProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<EditForm Model="@user" OnValidSubmit="OnValidSubmit">
+    <DataAnnotationsValidator />
+    <MudItem xs="12" sm="7">
+        <MudCard>
+            <MudCardContent>
+                
+                <MudTextField Label="Login" HelperText="Min. 1 characters"
+                              @bind-Value="user.Login" For="@(() => user.Login)" />
+                <MudTextField Label="Password" HelperText="Choose a strong password" Class="mt-3"
+                              @bind-Value="user.Password" For="@(() => user.Password)" InputType="InputType.Password" />
+            </MudCardContent>
+            <MudCardActions>
+                <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">Войти</MudButton>
+            </MudCardActions>
+        </MudCard>
+    </MudItem>
+</EditForm>
+@code {
+    User user = new();
+
+    public async Task OnValidSubmit(EditContext context)
+    {
+        //var response = await http.PostAsJsonAsync($"http://10.77.37.31:5079/api/Users", user);
+        user = await http.GetFromJsonAsync<User>($"http://192.168.1.68:5079/api/Users/Auth?login={user.Login}&password={user.Password}");
+        if (user.Id != 0)
+        {
+            session.sessinId = user.Id;
+            manager.NavigateTo("/");
+        }
+        else
+        {
+            // Обработка ошибки, например, вывод сообщения об ошибке
+            //var errorContent = await user.Content.ReadAsStringAsync();
+            //Console.WriteLine($"Error: {errorContent}");
+        }
+        StateHasChanged();
+    }
+}
