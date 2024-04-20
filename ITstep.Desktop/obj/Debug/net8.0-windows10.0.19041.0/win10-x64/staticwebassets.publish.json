@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sw72OFrpXbLmm9YSTZcPKlaXaiwZzHmdY30hWH7gRco=",
+  "Hash": "y5CWp8pGZrivEt+n/cXGhLpmVa8oPdlVw1il+1hqvPs=",
   "Source": "ITstep.Desktop",
   "BasePath": "/",
   "Mode": "Root",
@@ -10,17 +10,17 @@
     {
       "Name": "ITstep.Desktop\\wwwroot",
       "Source": "ITstep.Desktop",
-      "ContentRoot": "C:\\Users\\gghgg\\Desktop\\vs studio\\ITsetp\\ITstep.Desktop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Desktop\\wwwroot\\",
       "BasePath": "/",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\gghgg\\Desktop\\vs studio\\ITsetp\\ITstep.Desktop\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\ITstep.Desktop.styles.css",
+      "Identity": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Desktop\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\ITstep.Desktop.styles.css",
       "SourceId": "ITstep.Desktop",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\gghgg\\Desktop\\vs studio\\ITsetp\\ITstep.Desktop\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Desktop\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\",
       "BasePath": "/",
       "RelativePath": "ITstep.Desktop.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gghgg\\Desktop\\vs studio\\ITsetp\\ITstep.Desktop\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\ITstep.Desktop.styles.css"
+      "OriginalItemSpec": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Desktop\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\ITstep.Desktop.styles.css"
     },
     {
-      "Identity": "C:\\Users\\gghgg\\Desktop\\vs studio\\ITsetp\\ITstep.Desktop\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\ITstep.Desktop.bundle.scp.css",
+      "Identity": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Desktop\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\ITstep.Desktop.bundle.scp.css",
       "SourceId": "ITstep.Desktop",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\gghgg\\Desktop\\vs studio\\ITsetp\\ITstep.Desktop\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Desktop\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\",
       "BasePath": "/",
       "RelativePath": "ITstep.Desktop.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gghgg\\Desktop\\vs studio\\ITsetp\\ITstep.Desktop\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\ITstep.Desktop.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Desktop\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\ITstep.Desktop.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\gghgg\\Desktop\\vs studio\\ITsetp\\ITstep.Desktop\\wwwroot\\css\\app.css",
+      "Identity": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Desktop\\wwwroot\\css\\app.css",
       "SourceId": "ITstep.Desktop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gghgg\\Desktop\\vs studio\\ITsetp\\ITstep.Desktop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Desktop\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\app.css"
     },
     {
-      "Identity": "C:\\Users\\gghgg\\Desktop\\vs studio\\ITsetp\\ITstep.Desktop\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Desktop\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "ITstep.Desktop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gghgg\\Desktop\\vs studio\\ITsetp\\ITstep.Desktop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Desktop\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\gghgg\\Desktop\\vs studio\\ITsetp\\ITstep.Desktop\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Desktop\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "ITstep.Desktop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gghgg\\Desktop\\vs studio\\ITsetp\\ITstep.Desktop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Desktop\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\gghgg\\Desktop\\vs studio\\ITsetp\\ITstep.Desktop\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Desktop\\wwwroot\\favicon.png",
       "SourceId": "ITstep.Desktop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gghgg\\Desktop\\vs studio\\ITsetp\\ITstep.Desktop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Desktop\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\gghgg\\Desktop\\vs studio\\ITsetp\\ITstep.Desktop\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Desktop\\wwwroot\\index.html",
       "SourceId": "ITstep.Desktop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gghgg\\Desktop\\vs studio\\ITsetp\\ITstep.Desktop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\ITstep\\ITstep.Desktop\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "index.html",
       "AssetKind": "All",
