@@ -11,6 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers().AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 builder.Services.AddCors();
+builder.Services.AddAntiforgery();
 
 builder.Services.AddDbContext<StepDbContext>();
 
@@ -27,6 +28,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseCors(p => p.AllowAnyOrigin());
+app.UseAntiforgery();
 
 app.UseAuthorization();
 

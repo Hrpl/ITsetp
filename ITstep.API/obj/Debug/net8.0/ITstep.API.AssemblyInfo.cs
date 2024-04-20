@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ITstep.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ccf9ae4d25962e305ab0bbcca0aa1e0407483cdb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a21e862e75ef1dff7980bd46d641b0d8e2c7f17d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ITstep.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ITstep.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

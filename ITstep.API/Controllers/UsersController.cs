@@ -35,7 +35,24 @@ namespace ITstep.API.Controllers
             if (users != null) return Ok(users);
             else return BadRequest(users);
         }
-
-        
+        // Post api/<UsersController>
+        [HttpPost]
+        public async Task<ActionResult> PostUser(User user)
+        {
+            if (user != null)
+            {
+                await _db.Users.AddAsync(user);
+                try
+                {
+                    _db.SaveChanges();
+                    return BadRequest("Пользователь сохранён");
+                }
+                catch (Exception ex)
+                {
+                    return BadRequest("Ошибка сохранения пользователя");
+                }
+            }
+            else return BadRequest("Пользователя пришёл как null");
+        }
     }
 }
