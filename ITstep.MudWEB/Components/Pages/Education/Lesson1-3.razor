@@ -1,5 +1,12 @@
 ﻿@page "/education/lesson1-3"
 
+@inject IDialogService DialogService
+@rendermode RenderMode.InteractiveServer
+
+<MudPopoverProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
 <PageTitle>Урок 1-3</PageTitle>
 
 <h3 class="py-4">ПРЕИМУЩЕСТВА РАБОТЫ В КОМПАНИИ</h3>
@@ -114,6 +121,12 @@
     </CardSlide>
 </MudGrid>
 
+<MudButton OnClick="StartTest"
+           Variant="Variant.Filled"
+           EndIcon="@Icons.Material.Filled.ArrowForwardIos"
+           Color="Color.Primary">
+    Пройти тест
+</MudButton>
 <MudButton Href="/education"
            Variant="Variant.Filled"
            EndIcon="@Icons.Material.Filled.ArrowForwardIos"
@@ -122,5 +135,10 @@
 </MudButton>
 
 @code {
-
+    private void StartTest()
+    {
+        var parameters = new DialogParameters<LessonTest_1>();
+        var options = new DialogOptions() { CloseButton = true, MaxWidth = MaxWidth.Medium, FullWidth = true, DisableBackdropClick = true };
+        DialogService.Show<LessonTest_1>("Тест по первому разделу", parameters, options);
+    }
 }
