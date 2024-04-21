@@ -1,0 +1,41 @@
+﻿@inherits LayoutComponentBase
+
+<style>
+	.mud-nav-link-expand-icon {
+        display: none;
+    }
+</style>
+
+<MudThemingProvider />
+
+<MudGrid>
+	<MudItem md="2">
+		<MudPaper Width="auto" Height="100%" Class="d-inline-flex py-3" Elevation="0">
+			<MudNavMenu Class="mud-width-full">				
+				<MudNavLink Href="/education" Icon="@Icons.Material.Filled.Dashboard">Центр обучения</MudNavLink>
+
+				<MudNavGroup Title="Уроки" Icon="@Icons.Material.Filled.MenuBook" Expanded="true">
+					<MudNavGroup Title="О компании" Icon="@Icons.Material.Filled.Business" Expanded="true">
+						<MudNavLink Href="/education/lesson1-1" Icon="@Icons.Material.Filled.Bookmark">О том, кто мы</MudNavLink>
+						<MudNavLink Href="/education/lesson1-2" Icon="@Icons.Material.Filled.Bookmark">Ценности компании</MudNavLink>
+						<MudNavLink Href="/education/lesson1-3" Icon="@Icons.Material.Filled.Bookmark">Преимущества</MudNavLink>
+					</MudNavGroup>
+					<MudNavGroup Title="О правилах" Icon="@Icons.Material.Filled.Checklist" Expanded="true">
+						<MudNavLink Href="/education/lesson2-1" Icon="@Icons.Material.Filled.Bookmark">Общие правила</MudNavLink>
+						<MudNavLink Href="/education/lesson2-2" Icon="@Icons.Material.Filled.Bookmark">Коммуникация</MudNavLink>
+						<MudNavLink Href="/education/lesson2-3" Icon="@Icons.Material.Filled.Bookmark">Мероприятия</MudNavLink>
+					</MudNavGroup>
+				</MudNavGroup>
+			</MudNavMenu>
+		</MudPaper>
+	</MudItem>
+	<MudItem md="10">
+		<MudMainContent>
+			@Body
+		</MudMainContent>
+	</MudItem>
+</MudGrid>
+
+@code {
+
+}
