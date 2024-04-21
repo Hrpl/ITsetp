@@ -121,18 +121,20 @@
     </CardSlide>
 </MudGrid>
 
-<MudButton OnClick="StartTest"
-           Variant="Variant.Filled"
-           EndIcon="@Icons.Material.Filled.ArrowForwardIos"
-           Color="Color.Primary">
-    Пройти тест
-</MudButton>
-<MudButton Href="/education"
-           Variant="Variant.Filled"
-           EndIcon="@Icons.Material.Filled.ArrowForwardIos"
-           Color="Color.Primary">           
-    Закончить
-</MudButton>
+<MudContainer Class="d-flex justify-end align-right me-0">
+    <MudButton OnClick="StartTest"
+               Variant="Variant.Filled"
+               EndIcon="@Icons.Material.Filled.ArrowForwardIos"
+               Color="Color.Primary">
+        Пройти тест
+    </MudButton>
+    <MudButton Href="/education"
+               Variant="Variant.Filled"
+               EndIcon="@Icons.Material.Filled.ArrowForwardIos"
+               Color="Color.Primary">           
+        Закончить
+    </MudButton>
+</MudContainer>
 
 @code {
     private void StartTest()

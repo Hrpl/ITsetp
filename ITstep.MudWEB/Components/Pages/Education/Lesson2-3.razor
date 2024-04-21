@@ -1,6 +1,7 @@
 ﻿@page "/education/lesson2-3"
 
 @inject IDialogService DialogService
+@rendermode RenderMode.InteractiveServer
 
 <MudPopoverProvider />
 <MudDialogProvider />
@@ -82,13 +83,27 @@
     КАК ПОПАСТЬ В ЭТУ ГРУППУ ИЛИ РЕАЛИЗОВАТЬ ТВОЙ ЗАМЫСЕЛ.
 </Paragraph>
 
-<MudButton Href="/education"
-           Variant="Variant.Filled"
-           EndIcon="@Icons.Material.Filled.ArrowForwardIos"
-           Color="Color.Primary">
-    Закончить
-</MudButton>
+
+<MudContainer Class="d-flex justify-end align-right me-0">
+    <MudButton OnClick="StartTest"
+               Variant="Variant.Filled"
+               EndIcon="@Icons.Material.Filled.ArrowForwardIos"
+               Color="Color.Primary">
+        Пройти тест
+    </MudButton>
+    <MudButton Href="/education"
+               Variant="Variant.Filled"
+               EndIcon="@Icons.Material.Filled.ArrowForwardIos"
+               Color="Color.Primary">
+        Закончить
+    </MudButton>
+</MudContainer>
 
 @code {
-
+    private void StartTest()
+    {
+        var parameters = new DialogParameters<LessonTest_2>();
+        var options = new DialogOptions() { CloseButton = true, MaxWidth = MaxWidth.Medium, FullWidth = true, DisableBackdropClick = true };
+        DialogService.Show<LessonTest_2>("Тест по второму разделу", parameters, options);
+    }
 }

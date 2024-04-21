@@ -1,5 +1,4 @@
-﻿@using ITstep.Domen.Models
-@inject ISnackbar SnackbarService
+﻿@inject ISnackbar SnackbarService
 @inject LocalStorage session
 @inject HttpClient http
 
@@ -11,43 +10,23 @@
 			@switch (questionNumber)
 			{
 				case 1:
-					<Paragraph>Где находится головной офис Стилсофт?</Paragraph>
-					<MudRadioGroup @bind-Value="radio" Class="flex-column">
-						<MudRadio Value="1" Color="Color.Primary">Невиномысск</MudRadio>
-						<MudRadio Value="2" Color="Color.Primary">Ставрополь</MudRadio>
-						<MudRadio Value="3" Color="Color.Primary">Москва</MudRadio>
-					</MudRadioGroup>
+					<Paragraph>Какое сочетание клавиш для блокировки компьютера?</Paragraph>
+					<MudSelect T="string" Label="Клавиша 1" Variant="Variant.Outlined" AnchorOrigin="Origin.BottomCenter">
+
+					</MudSelect>
+					<MudSelect T="string" Label="Клавиша 2" Variant="Variant.Outlined" AnchorOrigin="Origin.BottomCenter">
+
+					</MudSelect>
 					break;
 				case 2:
-					<Paragraph>Выберите верные утверждения:</Paragraph>
-
-					<MudDropContainer T="DropItem" Items="_items" ItemsSelector="@((item,dropzone) => item.Selector == dropzone)" ItemDropped="ItemUpdated" Class="d-flex flex-wrap flex-grow-1">
-						<ChildContent>
-								<MudPaper Class="ma-4 flex-grow-1">
-									<MudList Clickable="true" Class="d-flex flex-column mud-height-full">
-										<MudListSubheader>Все утверждения</MudListSubheader>
-										<MudDropZone T="DropItem" Identifier="1" Class="flex-grow-1" AllowReorder="true" />
-									</MudList>
-								</MudPaper>
-								<MudPaper Class="ma-4 flex-grow-1">
-									<MudList Clickable="true" Class="d-flex flex-column mud-height-full">
-										<MudListSubheader>Верные утверждения</MudListSubheader>
-										<MudDropZone T="DropItem" Identifier="2" Class="flex-grow-1" AllowReorder="true" />
-									</MudList>
-								</MudPaper>
-						</ChildContent>
-						<ItemRenderer>
-							<MudListItem Text="@context.Name" />
-						</ItemRenderer>
-					</MudDropContainer>
+					<Paragraph>Сколько яблок весит синий ёжик на луне в среду<MudLink OnClick="Hint">?</MudLink></Paragraph>
+					<MudItem md="4">
+						<MudField Variant="Variant.Filled" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.AutoFixHigh" @bind-Value="answer3" />
+					</MudItem>
+					
 					break;
 				case 3:
 					<Paragraph>Какие ценности компании?</Paragraph>
-					<MudCheckBox @bind-Value="check[0]" Color="Color.Primary">Вера в успех</MudCheckBox>
-					<MudCheckBox @bind-Value="check[1]" Color="Color.Primary">Ответственность</MudCheckBox>
-					<MudCheckBox @bind-Value="check[2]" Color="Color.Primary">Наши сотрудники</MudCheckBox>
-					<MudCheckBox @bind-Value="check[3]" Color="Color.Primary">Честность</MudCheckBox>
-					<MudCheckBox @bind-Value="check[4]" Color="Color.Primary">Свобода и развитие</MudCheckBox>
 					break;
 				case 4:
 					<MudContainer Class="d-flex justify-center align-center">
@@ -84,10 +63,10 @@
 
 	private int questionNumber = 1;
 	private int ProgressBarValue { get; set; }
-	private bool _processing = false;
 
-	private int radio { get; set; } = 0;
-	private List<bool> check = new List<bool> { false, false, false, false, false };
+	private List<string> answer1 = new List<string> { "Win", "Ctrl", "Alt" };
+	private List<string> answer2 = new List<string> { "Tab", "L", "C"};
+	private string answer3;
 
 	protected override async Task OnInitializedAsync()
 	{
@@ -110,16 +89,10 @@
 		switch (questionNumber)
 		{
 			case 1:
-				if (radio != 2)
-				{					
-					SnackbarService.Add("Неверно!", Severity.Error);
-				} else
-				{
-					SnackbarService.Add("Отлично!", Severity.Success);
-				}
-				break;
+
 			case 2:
-				if (_items[0].Selector != "2" && _items[1].Selector != "2" && _items[3].Selector != "2")
+
+				if (answer3 == "12")
 				{
 					SnackbarService.Add("Неправильно!", Severity.Error);
 				} else
@@ -128,19 +101,17 @@
 				}
 				break;
 			case 3:
-				if (check.All<bool>(x => x == false))
-				{
-					SnackbarService.Add("Вы читали урок?", Severity.Error);
-				}
-				else
-				{
-					SnackbarService.Add("Прекрасно!", Severity.Success);
-				}
+
 				break;
 		}
 		questionNumber++;
 	}
 
+	private void Hint()
+	{
+		SnackbarService.Configuration.PositionClass = Defaults.Classes.Position.BottomRight;
+		SnackbarService.Add("Ответ 12 :)", Severity.Info);
+	}
 
 	private async Task Close(){
 		Start();
@@ -149,6 +120,7 @@
 		{
 
 		}
+		// Добавить отправку на API
 
 		await Task.Delay(2500);
 		MudDialog.Close(DialogResult.Ok(true));
@@ -156,7 +128,7 @@
 
 	private void ItemUpdated(MudItemDropInfo<DropItem> dropItem)
 	{
-		dropItem.Item.Selector = dropItem.DropzoneIdentifier;
+		// dropItem.Item.Selector = dropItem.DropzoneIdentifier;
 	}
 
 	private List<DropItem> _items = new()
