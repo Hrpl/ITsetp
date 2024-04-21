@@ -1,0 +1,159 @@
+﻿@page "/Game"
+@rendermode InteractiveServer
+
+<style>
+    .box {
+        border-radius: 15px;
+        height: 50px;
+        width: 50px;
+        margin: 5px;
+    }
+</style>
+
+<h2 align="center">@Status</h2>
+
+<div style="display: flex; justify-content:center; align-items:center;">
+    <p>
+        <div @onclick="box1" class="box" style="background: @clr[0, 0];"></div>
+        <div @onclick="box2" class="box" style="background: @clr[0, 1];"></div>
+        <div @onclick="box3" class="box" style="background: @clr[0, 2];"></div>
+    </p>
+    <p>
+        <div @onclick="box4" class="box" style="background: @clr[1, 0];"></div>
+        <div @onclick="box5" class="box" style="background: @clr[1, 1];"></div>
+        <div @onclick="box6" class="box" style="background: @clr[1, 2];"></div>
+    </p>
+    <p>
+        <div @onclick="box7" class="box" style="background: @clr[2, 0];"></div>
+        <div @onclick="box8" class="box" style="background: @clr[2, 1];"></div>
+        <div @onclick="box9" class="box" style="background: @clr[2, 2];"></div>
+    </p>
+</div>
+
+
+<div @onclick="box10" class="box" style="background: #f4f7f5; position: fixed; right: 0px; bottom: 0px;"></div>
+
+@code
+{
+    private string Status = "";
+    private string[,] clr = new string[3, 3] {
+        {"red", "red","red" },
+        {"red", "red","red" },
+        {"red", "red","red" }
+    };
+
+    private void box1()
+    {
+        if (clr[0, 0] == "red") clr[0, 0] = "green";
+        else clr[0, 0] = "red";
+        if (clr[0, 1] == "red") clr[0, 1] = "green";
+        else clr[0, 1] = "red";
+        if (clr[1, 0] == "red") clr[1, 0] = "green";
+        else clr[1, 0] = "red";
+    }
+
+    private void box2()
+    {
+        if (clr[0, 1] == "red") clr[0, 1] = "green";
+        else clr[0, 1] = "red";
+        if (clr[0, 0] == "red") clr[0, 0] = "green";
+        else clr[0, 0] = "red";
+        if (clr[0, 2] == "red") clr[0, 2] = "green";
+        else clr[0, 2] = "red";
+        if (clr[1, 1] == "red") clr[1, 1] = "green";
+        else clr[1, 1] = "red";
+    }
+
+    private void box3()
+    {
+        if (clr[0, 2] == "red") clr[0, 2] = "green";
+        else clr[0, 2] = "red";
+        if (clr[0, 1] == "red") clr[0, 1] = "green";
+        else clr[0, 1] = "red";
+        if (clr[1, 2] == "red") clr[1, 2] = "green";
+        else clr[1, 2] = "red";
+
+    }
+
+    private void box4()
+    {
+        if (clr[1, 0] == "red") clr[1, 0] = "green";
+        else clr[1, 0] = "red";
+        if (clr[0, 0] == "red") clr[0, 0] = "green";
+        else clr[0, 0] = "red";
+        if (clr[1, 1] == "red") clr[1, 1] = "green";
+        else clr[1, 1] = "red";
+        if (clr[2, 0] == "red") clr[2, 0] = "green";
+        else clr[2, 0] = "red";
+    }
+
+    private void box5()
+    {
+        if (clr[1, 1] == "red") clr[1, 1] = "green";
+        else clr[1, 1] = "red";
+        if (clr[0, 1] == "red") clr[0, 1] = "green";
+        else clr[0, 1] = "red";
+        if (clr[1, 0] == "red") clr[1, 0] = "green";
+        else clr[1, 0] = "red";
+        if (clr[1, 2] == "red") clr[1, 2] = "green";
+        else clr[1, 2] = "red";
+        if (clr[2, 1] == "red") clr[2, 1] = "green";
+        else clr[2, 1] = "red";
+    }
+
+    private void box6()
+    {
+        if (clr[1, 2] == "red") clr[1, 2] = "green";
+        else clr[1, 2] = "red";
+        if (clr[0, 2] == "red") clr[0, 2] = "green";
+        else clr[0, 2] = "red";
+        if (clr[1, 1] == "red") clr[1, 1] = "green";
+        else clr[1, 1] = "red";
+        if (clr[2, 2] == "red") clr[2, 2] = "green";
+        else clr[2, 2] = "red";
+    }
+
+    private void box7()
+    {
+        if (clr[2, 0] == "red") clr[2, 0] = "green";
+        else clr[2, 0] = "red";
+        if (clr[1, 0] == "red") clr[1, 0] = "green";
+        else clr[1, 0] = "red";
+        if (clr[2, 1] == "red") clr[2, 1] = "green";
+        else clr[2, 1] = "red";
+    }
+
+    private void box8()
+    {
+        if (clr[2, 1] == "red") clr[2, 1] = "green";
+        else clr[2, 1] = "red";
+        if (clr[2, 0] == "red") clr[2, 0] = "green";
+        else clr[2, 0] = "red";
+        if (clr[1, 1] == "red") clr[1, 1] = "green";
+        else clr[1, 1] = "red";
+        if (clr[2, 2] == "red") clr[2, 2] = "green";
+        else clr[2, 2] = "red";
+    }
+
+    private void box9()
+    {
+        if (clr[2, 2] == "red") clr[2, 2] = "green";
+        else clr[2, 2] = "red";
+        if (clr[2, 1] == "red") clr[2, 1] = "green";
+        else clr[2, 1] = "red";
+        if (clr[1, 2] == "red") clr[1, 2] = "green";
+        else clr[1, 2] = "red";
+    }
+
+    private void box10()
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                clr[i, j] = "green";
+            }
+        }
+        Status = "Вы победили!";
+    }
+}
