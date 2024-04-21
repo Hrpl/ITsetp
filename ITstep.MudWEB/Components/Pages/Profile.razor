@@ -1,0 +1,24 @@
+﻿@page "/Profile"
+
+@inject LocalStorage coocie
+@using ITstep.Domen.Models
+
+@if(coocie != null)
+{
+    <MudCard Class="mud-width-half">
+        <MudCardMedia Image="@coocie.sessinUser.Photo" />
+        <MudCardContent>
+            <MudStack>
+                <MudPaper Class="pa-3">@coocie.sessinUser.Name</MudPaper>
+                <MudPaper Class="pa-3">@coocie.sessinUser.Surname</MudPaper>
+                <MudPaper Class="pa-3">@coocie.sessinUser.Login</MudPaper>
+                <MudPaper Class="pa-3">@coocie.sessinUser.Password</MudPaper>
+                <MudPaper Class="pa-3">@coocie.sessinUser.Score</MudPaper>
+            </MudStack>
+        </MudCardContent>
+    </MudCard>
+}
+
+@code {
+
+}
