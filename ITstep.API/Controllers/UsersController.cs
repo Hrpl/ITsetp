@@ -61,5 +61,12 @@ namespace ITstep.API.Controllers
             if (user != null) return Ok(user);
             else return BadRequest(user);
         }
+
+        [HttpPut("AddScore")]
+        public async Task<ActionResult> AddScore(int id, int score)
+        {
+            _service.AddScore(id, score);
+            return Ok();
+        }
     }
 }
