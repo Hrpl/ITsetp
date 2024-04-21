@@ -1,0 +1,12 @@
+﻿<MudCard Class="mb-3" Width="45%">
+    <MudCardContent>
+        <MudText>@Title</MudText>
+        <MudText Typo="Typo.body2" Align="Align.Justify">@ChildContent</MudText>
+    </MudCardContent>
+</MudCard>
+
+@code {
+    [Parameter] public string Title { get; set; }
+    [Parameter] public RenderFragment ChildContent { get; set; }
+
+}
