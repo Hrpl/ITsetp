@@ -1,0 +1,178 @@
+﻿@page "/"
+@inject LocalStorage session
+@inject NavigationManager manager
+@rendermode RenderMode.InteractiveServer
+<MudPopoverProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+<MudAppBar Elevation="1">
+    @if (session.sessinUser != null)
+    {
+        <MudMenu ActivationEvent="@MouseEvent.MouseOver" AnchorOrigin="Origin.BottomCenter" TransformOrigin="Origin.TopCenter">
+            <ActivatorContent>
+                <MudAvatar Image="@session.sessinUser.Photo" />
+            </ActivatorContent>
+            <ChildContent>
+                <MudMenuItem OnClick="Profile">Profile</MudMenuItem>
+                <MudMenuItem OnClick="Education">Theme</MudMenuItem>
+                <MudMenuItem OnClick="LogOut">Sign Out</MudMenuItem>
+            </ChildContent>
+        </MudMenu>
+    }
+    else
+    {
+        <MudButtonGroup Color="Color.Warning" Variant="Variant.Filled">
+            <MudButton style="background:#2EA6F5" OnClick="LogIn">Войти</MudButton>
+            <MudButton style="background:#2EA6F5" OnClick="Sign">Зарегестрироваться</MudButton>
+        </MudButtonGroup>
+    }
+</MudAppBar>
+<MudCarousel Class="mud-width-full" @ref="_carousel" ItemsSource="@ImagePaths" @bind-SelectedIndex="selectedIndex" Style="height:650px;" ShowArrows="true" ShowBullets="true" EnableSwipeGesture="true" AutoCycle="true" TData="string">
+    <ItemTemplate>
+        <div class="d-flex flex-column flex-column justify-center" style="height:100%">
+            <MudImage Src="@context" Elevation="25" Class="rounded-lg ma-4" />
+        </div>
+    </ItemTemplate>
+</MudCarousel>
+
+<MudContainer Class="mt-4 mud-width-full">
+    <MudPaper Square="true">
+        <MudText Typo="Typo.h1">Главные новости</MudText>
+        <MudStack Spacing="14" Row="true">
+            <MudPaper Class="pa-3 mud-theme-primary">
+                <MudLink Href="/New1">
+                    <MudCard>
+                        <MudCardMedia Image="new1.jpg" Height="200" />
+                        <MudCardContent>
+                            <MudText Typo="Typo.h5">СТИЛСОФТ на выставке Securika Moscow 2024</MudText>
+                            <MudText Typo="Typo.body2">Дорогие друзья, коллеги и партнеры. С 16 по 18 апреля 2024 года на территории МВЦ «Крокус Экспо» в Москве состоится 29-Я МЕЖДУНАРОДНАЯ ВЫСТАВКА ТЕХНИЧЕСКИХ СРЕДСТВ ОХРАНЫ И ОБОРУДОВАНИЯ ДЛЯ ОБЕСПЕЧЕНИЯ БЕЗОПАСНОСТИ И ПРОТИВОПОЖАРНОЙ ЗАЩИТЫ. Компани...</MudText>
+                            <MudText Typo="Typo.body2">Опубликовано: 16.04.2024</MudText>
+                        </MudCardContent>
+                    </MudCard>
+                </MudLink>
+            </MudPaper>
+            <MudPaper Class="pa-3 mud-theme-primary">
+                <MudLink Href="/New2">
+                    <MudCard>
+                        <MudCardMedia Image="new2.jpg" Height="200" />
+                        <MudCardContent>
+                            <MudText Typo="Typo.h5">Турникеты полноростовые серии STS-460</MudText>
+                            <MudText Typo="Typo.body2">Компания СТИЛСОФТ представляет новую линейку продукции – полноростовые турникеты для организации контроля доступа на объектах и в помещениях с повышенными требованиями безопасности: от проходных промы...</MudText>
+                            <MudText Typo="Typo.body2">Опубликовано: 15.04.2024</MudText>
+                        </MudCardContent>
+                    </MudCard>
+                </MudLink>
+            </MudPaper>
+            <MudPaper Class="pa-3 mud-theme-primary">
+                <MudLink Href="/New3">
+                    <MudCard>
+                        <MudCardMedia Image="new3.jpg" Height="200" />
+                        <MudCardContent>
+                            <MudText Typo="Typo.h5">12 апреля – Всемирный день авиации и космонавтики</MudText>
+                            <MudText Typo="Typo.body2">От всего сердца поздравляем вас с Днем космонавтики!  Этот праздник символизирует великие достижения науки и техники, смелость и упорство наших героев, которым удалось покорить космос и открыть новые...</MudText>
+                            <MudText Typo="Typo.body2">Опубликовано: 12.04.2024</MudText>
+                        </MudCardContent>
+                    </MudCard>
+                </MudLink>
+            </MudPaper>
+        </MudStack>
+    </MudPaper>
+</MudContainer>
+<MudContainer Class="mt-6 mud-width-full">
+    <MudTimeline TimelineOrientation="TimelineOrientation.Horizontal" TimelinePosition="TimelinePosition.Start">
+        <MudTimelineItem Variant="Variant.Filled">
+            <ItemContent>
+                <MudAlert>
+                    занимаем лидирующие позиции на российском рынке
+                </MudAlert>
+            </ItemContent>
+            <ItemOpposite>
+                <MudText>22 года</MudText>
+            </ItemOpposite>
+        </MudTimelineItem>
+        <MudTimelineItem Variant="Variant.Filled">
+            <ItemContent>
+                <MudAlert>единиц продукции в год</MudAlert>
+            </ItemContent>
+            <ItemOpposite>
+                <MudText>600 000</MudText>
+            </ItemOpposite>
+        </MudTimelineItem>
+        <MudTimelineItem Variant="Variant.Filled">
+            <ItemContent>
+                <MudAlert>
+                    высококвали-
+                    фицированных специалистов
+                </MudAlert>
+            </ItemContent>
+            <ItemOpposite>
+                <MudText>1500</MudText>
+            </ItemOpposite>
+        </MudTimelineItem>
+        <MudTimelineItem Variant="Variant.Filled">
+            <ItemContent>
+                <MudAlert>
+                    изделий собственной разработки
+                </MudAlert>
+            </ItemContent>
+            <ItemOpposite>
+                <MudText>700</MudText>
+            </ItemOpposite>
+        </MudTimelineItem>
+        <MudTimelineItem Variant="Variant.Filled">
+            <ItemContent>
+                <MudAlert>
+                    производ-
+                    ственных площадей
+                </MudAlert>
+            </ItemContent>
+            <ItemOpposite>
+                <MudText>45 000 кв. м.</MudText>
+            </ItemOpposite>
+        </MudTimelineItem>
+        <MudTimelineItem Variant="Variant.Filled">
+            <ItemContent>
+                <MudAlert>
+                    представи-
+                    тельств
+                </MudAlert>
+            </ItemContent>
+            <ItemOpposite>
+                <MudText>7</MudText>
+            </ItemOpposite>
+        </MudTimelineItem>
+    </MudTimeline>
+</MudContainer>
+@code {
+    private MudCarousel<string> _carousel;
+    private int selectedIndex = 0;
+
+    private List<string> ImagePaths = new List<string>
+    {
+        "1.png",
+        "2.png",
+        "3.png"
+    };
+
+    private void Profile()
+    {
+        manager.NavigateTo("/Profile");
+    }
+    private void Education()
+    {
+        manager.NavigateTo("/education");
+    }
+    private void LogIn()
+    {
+        manager.NavigateTo("/Auth");
+    }
+    private void Sign()
+    {
+        manager.NavigateTo("/SignUp");
+    }
+    private void LogOut()
+    {
+        session.sessinUser = null;
+        manager.NavigateTo("/");
+    }
+}
