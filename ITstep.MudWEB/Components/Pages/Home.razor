@@ -6,7 +6,7 @@
 <MudDialogProvider />
 <MudSnackbarProvider />
 <MudAppBar Elevation="1">
-    @if(session.sessinUser != null)
+    @if (session.sessinUser != null)
     {
         <MudMenu ActivationEvent="@MouseEvent.MouseOver" AnchorOrigin="Origin.BottomCenter" TransformOrigin="Origin.TopCenter">
             <ActivatorContent>
@@ -27,14 +27,71 @@
         </MudButtonGroup>
     }
 </MudAppBar>
-<MudCarousel Class="mud-width-full" @ref="_carousel" ItemsSource="@ImagePaths" @bind-SelectedIndex="selectedIndex" Style="height:500px;" ShowArrows="true" ShowBullets="true" EnableSwipeGesture="true" AutoCycle="true" TData="string">
+<MudCarousel Class="mud-width-full" @ref="_carousel" ItemsSource="@ImagePaths" @bind-SelectedIndex="selectedIndex" Style="height:650px;" ShowArrows="true" ShowBullets="true" EnableSwipeGesture="true" AutoCycle="true" TData="string">
     <ItemTemplate>
         <div class="d-flex flex-column flex-column justify-center" style="height:100%">
             <MudImage Src="@context" Elevation="25" Class="rounded-lg ma-4" />
         </div>
     </ItemTemplate>
 </MudCarousel>
-
+@* <MudTimeline TimelineOrientation="TimelineOrientation.Horizontal" TimelinePosition="TimelinePosition.Start">
+    <MudTimelineItem Color="Color.Success" Variant="Variant.Filled">
+        <ItemContent>
+            <MudAlert Severity="Severity.Success">занимаем лидирующие позиции на российском рынке
+            </MudAlert>
+        </ItemContent>
+        <ItemOpposite>
+            <MudText Color="Color.Success">22 года</MudText>
+        </ItemOpposite>
+    </MudTimelineItem>
+    <MudTimelineItem Color="Color.Warning" Variant="Variant.Filled">
+        <ItemContent>
+            <MudAlert Severity="Severity.Warning">единиц продукции в год</MudAlert>
+        </ItemContent>
+        <ItemOpposite>
+            <MudText Color="Color.Warning">600 000</MudText>
+        </ItemOpposite>
+    </MudTimelineItem>
+    <MudTimelineItem Color="Color.Error" Variant="Variant.Filled">
+        <ItemContent>
+            <MudAlert Severity="Severity.Error">высококвалифицированных специалистов
+            </MudAlert>
+        </ItemContent>
+        <ItemOpposite>
+            <MudText Color="Color.Error">1500</MudText>
+        </ItemOpposite>
+    </MudTimelineItem>
+    <MudTimelineItem Color="Color.Error" Variant="Variant.Filled">
+        <ItemContent>
+            <MudAlert Severity="Severity.Error">
+                изделий собственной разработки
+            </MudAlert>
+        </ItemContent>
+        <ItemOpposite>
+            <MudText Color="Color.Error">700</MudText>
+        </ItemOpposite>
+    </MudTimelineItem>
+    <MudTimelineItem Color="Color.Error" Variant="Variant.Filled">
+        <ItemContent>
+            <MudAlert Severity="Severity.Error">
+                производственных площадей
+            </MudAlert>
+        </ItemContent>
+        <ItemOpposite>
+            <MudText Color="Color.Error">45 000 кв. м.</MudText>
+        </ItemOpposite>
+    </MudTimelineItem>
+    <MudTimelineItem Color="Color.Error" Variant="Variant.Filled">
+        <ItemContent>
+            <MudAlert Severity="Severity.Error">
+                представительств
+            </MudAlert>
+        </ItemContent>
+        <ItemOpposite>
+            <MudText Color="Color.Error">7</MudText>
+        </ItemOpposite>
+    </MudTimelineItem>
+</MudTimeline> *@
 @code {
     private MudCarousel<string> _carousel;
     private int selectedIndex = 0;
