@@ -1,0 +1,71 @@
+﻿@page "/education"
+
+<PageTitle>Центр обучения</PageTitle>
+
+<h3 class="py-4">Добро пожаловать в центр обучения сотрудников!</h3>
+
+<Paragraph>
+	Компания СТИЛСОФТ работает на
+	благо страны и мира, и ты теперь
+	тоже выполняешь эту почетную и
+	очень ответственную миссию.
+</Paragraph>
+<Paragraph>
+	Наши сотрудники – большая
+	команда, которая трудится для
+	достижения общей цели. Очень
+	надеемся, что с твоим приходом
+	мы станем еще более сильными,
+	эффективными и инновационными.
+</Paragraph>
+<Paragraph>
+	Мы расскажем тебе о нашей
+	компании, о её корпоративной
+	культуре, о подходах и правилах
+	работы – обо всём, что поможет
+	тебе легче адаптироваться. Так ты
+	сможешь комфортно и
+	эффективно развиваться в нашей
+	компании. Ты готов?
+</Paragraph>
+
+<MudGrid Spacing="5" Justify="Justify.FlexStart">
+	<MudItem md="3" >
+		<MudCard>
+			<MudCardMedia Image=" " Height="150"/>
+			<MudCardContent>
+				<MudText Typo="Typo.h5">О компании</MudText>
+				<MudText Typo="Typo.body2">Расскажем о комании, ее истории, продуктах и принципах.</MudText>				
+			</MudCardContent>
+			<MudCardActions Class="flex-row-reverse">
+				<MudButton Href="/education/lesson1-1"
+						   Variant="Variant.Filled"
+						   EndIcon="@Icons.Material.Filled.ArrowForwardIos"
+						   Color="Color.Primary">
+					Начать
+				</MudButton>
+			</MudCardActions>
+		</MudCard>
+	</MudItem>
+	<MudItem md="3">
+		<MudCard>
+			<MudCardMedia Image=" " Height="150"/>
+			<MudCardContent>
+				<MudText Typo="Typo.h5">О правилах</MudText>
+				<MudText Typo="Typo.body2">Расскажем о правилах внутри компании, коммуникации и мероприятиях.</MudText>
+			</MudCardContent>
+			<MudCardActions Class="flex-row-reverse">
+				<MudButton Href="/education/lesson2-1"
+						   Variant="Variant.Filled"
+						   EndIcon="@Icons.Material.Filled.ArrowForwardIos"
+						   Color="Color.Primary">
+					Начать
+				</MudButton>
+			</MudCardActions>
+		</MudCard>
+	</MudItem>
+</MudGrid>
+
+@code {
+
+}
